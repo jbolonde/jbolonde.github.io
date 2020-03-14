@@ -1,5 +1,5 @@
 ## Oregon COVID-19 cases
-```{r}
+
 # setup
 library(tidyverse)
 library(plotly)
@@ -38,5 +38,3 @@ oregon_cases_viz %>%
             y = ~oregon_cases$cumulative_cases,
             name = "Cumulative_cases") %>% 
   layout(title = 'COVID 19 cases')
-
-```
